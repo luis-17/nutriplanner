@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="225 -225 470 470" style="enable-background:new 225 -225 470 470;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="590.0145" y1="304.1062" x2="163.0145" y2="-98.8938">
+		<stop  offset="0" style="stop-color:#6BB27E"/>
+		<stop  offset="1" style="stop-color:#21A2A8"/>
+	</linearGradient>
+	<path class="st0" d="M687.5,200H270v-417.5c0-4.1-3.4-7.5-7.5-7.5s-7.5,3.4-7.5,7.5v63.3h-22.5c-4.1,0-7.5,3.4-7.5,7.5
+		s3.4,7.5,7.5,7.5H255v55.8h-22.5c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5H255v55.8h-22.5c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5
+		H255v55.8h-22.5c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5H255v55.8h-22.5c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5H255v63.3
+		c0,4.1,3.4,7.5,7.5,7.5h110.8v22.5c0,4.1,3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5V215h173.3v22.5c0,4.1,3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5
+		V215h110.8c4.1,0,7.5-3.4,7.5-7.5S691.6,200,687.5,200z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="581.7618" y1="312.8504" x2="154.7618" y2="-90.1496">
+		<stop  offset="0" style="stop-color:#6BB27E"/>
+		<stop  offset="1" style="stop-color:#21A2A8"/>
+	</linearGradient>
+	<path class="st1" d="M302.5,185c4.1,0,7.5-3.4,7.5-7.5V2.5h63.3v175c0,4.1,3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5V73.3h59.2v104.2
+		c0,4.1,3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5V65.8c0-4.1-3.4-7.5-7.5-7.5h-66.7V-5c0-4.1-3.4-7.5-7.5-7.5h-78.3c-4.1,0-7.5,3.4-7.5,7.5
+		v182.5C295,181.6,298.4,185,302.5,185z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="707.5992" y1="179.519" x2="280.5992" y2="-223.481">
+		<stop  offset="0" style="stop-color:#6BB27E"/>
+		<stop  offset="1" style="stop-color:#21A2A8"/>
+	</linearGradient>
+	<path class="st2" d="M495,185c4.1,0,7.5-3.4,7.5-7.5v-316.7h59.2v316.7c0,4.1,3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5V-68.3H640v245.8
+		c0,4.1,3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5V-75.8c0-4.1-3.4-7.5-7.5-7.5h-70.8v-63.3c0-4.1-3.4-7.5-7.5-7.5H495
+		c-4.1,0-7.5,3.4-7.5,7.5v324.2C487.5,181.6,490.9,185,495,185z"/>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Aller";
+    src: url(assets/fonts/Aller.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Aller_rg";
+    src: url(assets/fonts/Aller_Rg.ttf) format("truetype");
+}
+header .header-bar{ 
+	height: 60px; 
+	align-items: center; 
+    display: flex; 
+}
+
+header .header-bar .brand-image img{ 
+	width: 200px; 
+}
+header .header-bar .brand-menu{ 
+	margin-left: auto;
+}
