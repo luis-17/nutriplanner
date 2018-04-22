@@ -315,7 +315,17 @@ section.section{
     margin: auto;
     padding-bottom: 2rem;
 	}
-	
+}
+@media (max-width: 576px) {
+	section.ofrecimiento-nutriplanner .item-icon .block-text{
+		width: auto; 
+	}
+	.slider-home .carousel-item .carousel-caption{ 
+	    bottom: 70%;
+	}
+	.slider-home .carousel-item .carousel-caption.show-movil{
+	  bottom: 0;
+	}
 }
 /* ANIMACION */ 
 .animation-element{
