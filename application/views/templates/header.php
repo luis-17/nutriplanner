@@ -37,11 +37,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="assets/libs/html5-reset/css/reset.css" /> 
 	<link rel="stylesheet" href="assets/libs/html5-reset/css/style.css" /> 
 
-	<!-- Custom CSS --> 
-	<link rel="stylesheet" href="assets/css/custom.css" /> 
-
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/libs/bootstrap-4.1.0/css/bootstrap.min.css" >
+  <!-- animate css --> 
+  <link rel="stylesheet" href="assets/css/animate.css" /> 
+	<!-- Custom CSS --> 
+	<link rel="stylesheet" href="assets/css/custom.css" /> 
 
 	<script src="assets/libs/prefixfree.min.js"></script> 
 	<script src="assets/libs/modernizr-custom.js"></script>
@@ -62,16 +63,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 	<header>
 		<div class="container">
-			<div class="header-bar">
-				<div class="brand-image d-inline-block float-left"> 
-					<img src="assets/images/svg/logo_nutriplanner_h.min.svg" alt="NutriPlanner - Software especializado para nutricionistas" /> 
-				</div> 
-		  		<nav class="nav brand-menu justify-content-center float-right">
-		            <a class="nav-link active" href="#">Inicio</a>
-		            <a class="nav-link" href="#">¿Qué es NutriPlanner?</a>
-		            <a class="nav-link" href="#">Planes</a>
-		            <a class="nav-link" href="#">Contacto</a>
-		        </nav>
-			</div> 
+			<!-- <nav class=" navbar navbar-default"> -->
+			<nav class="header-bar navbar navbar-expand-md navbar-light">
+				<div class="navbar-header brand-image">
+					<a class="navbar-brand" href="#">
+			      <img title="Software especializado para nutricionistas" src="assets/images/svg/logo_nutriplanner_h.min.svg" alt="NutriPlanner - Software Especializado para Nutricionistas" /> 
+			    </a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" 
+				  	aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+	  			</button> 
+				</div>
+				<div class="collapse navbar-collapse brand-menu" id="navbarMain">
+		      <ul class="navbar-nav ml-auto"> 
+      			<li class="nav-item active"><a class="nav-link link-to-menu " href="#inicio">Inicio</a></li>
+       			<li class="nav-item"><a class="nav-link link-to-menu" href="#que-es-nutriplanner">¿Qué es NutriPlanner?</a></li>
+       			<li class="nav-item"><a class="nav-link link-to-menu" href="#planes-precios">Planes</a></li>
+       			<li class="nav-item"><a class="nav-link link-to-menu" href="#contacto">Contacto</a></li>
+		      </ul>
+    		</div>
+			</nav> 
 		</div>
 	</header>

@@ -1,16 +1,46 @@
+/* COLORS 
+	Verde Claro #6db983 
+	Verde Oscuro #21a2a8 
+	font Gris #9e9ea0
+	fondo gris #f5f5f5 
+	button rosado #cd0836 
+*/
+
 @font-face {
     font-family: "Aller";
-    src: url(assets/fonts/Aller.ttf) format("truetype");
+    src: url(../../assets/fonts/Aller.ttf) format("truetype");
 }
 @font-face {
     font-family: "Aller_rg";
-    src: url(assets/fonts/Aller_Rg.ttf) format("truetype");
+    src: url(../../assets/fonts/Aller_Rg.ttf) format("truetype");
 }
-header .header-bar{ 
+@font-face {
+    font-family: "Aller_lt";
+    src: url(../../assets/fonts/Aller_Lt.ttf) format("truetype");
+}
+/* GENERAL */
+html, body{
+	font-family: "aller_rg","Segoe UI","Roboto";
+	color: #9e9ea0; 
+	line-height: 1.2;
+}
+.btn-interes{
+	background-color: #cd0836;
+	color: white;
+	border-radius: 9px;
+}
+/*HEADER*/
+header{
+	position: fixed;
+    width: 100%;
+    z-index: 9;
+    background: rgba(255,255,255,.86);
+}
+/*header .header-bar{ 
 	height: 60px; 
 	align-items: center; 
     display: flex; 
-}
+}*/
 
 header .header-bar .brand-image img{ 
 	width: 200px; 
@@ -18,3 +48,277 @@ header .header-bar .brand-image img{
 header .header-bar .brand-menu{ 
 	margin-left: auto;
 }
+header .brand-menu li a.nav-link{
+	color: #21a2a8 !important;
+}
+header .brand-menu li.active a.nav-link{
+	color: #6db983 !important;
+	text-decoration: none;
+	border-bottom: 2px solid;
+}
+
+/*SECTION*/
+section.section{
+	padding: 65px 40px; 
+}
+/* SLIDER HOME */
+	.slider-home .image-background{ 
+		background-color: gray;
+	    height: 660px;
+	    background-size: cover;
+	    
+	}
+	/*.slider-home .image-background.uno{
+		background-image: url("../../assets/images/slider/slider-1.jpg");
+		background-position: 0 3%;
+	}*/
+	.slider-home .image-background.dos{
+		background-image: url("../../assets/images/slider/slider-2.jpg");
+		/*background-position: 0 95%;*/
+	}
+	/*.slider-home .image-background.tres{
+		background-image: url("../../assets/images/slider/slider-3.jpg");
+	}*/
+	.slider-home .carousel-item .carousel-caption{ 
+    	/*background-color: rgb(33, 162, 168);*/
+    	background-color: rgba(109, 185, 131, 0.9);
+	    width: 100%;
+	    left: 0;
+	    bottom: 65%;
+	}
+	.slider-home .carousel-item .carousel-caption p{
+		font-size: 20px;
+		font-family: "Aller_lt";
+	}
+	.slider-home .carousel-item .carousel-caption.show-movil{
+	  display: none; 
+	}
+
+/* SECCION CONCEPTO */
+	section.concepto-nutriplanner h2{
+		color: #21a2a8;
+	}
+	section.concepto-nutriplanner small{
+		color: #6db983;
+		font-size: 18px;
+		line-height: 1.6;
+		font-family: 'aller_lt';
+	}
+	section.concepto-nutriplanner .block-text{
+		align-items: center;
+		margin: auto;
+		margin-left: 1.5rem;
+	}
+	section.concepto-nutriplanner p{
+		font-family: 'aller_lt';
+    line-height: 1.6;
+    font-size: 18px;
+	}
+	  
+/* SECCION OFRECIMIENTO */
+	section.ofrecimiento-nutriplanner{
+		background-color: #21a2a8; 
+		color: white;
+	}
+	section.ofrecimiento-nutriplanner h2{
+		color: white; 
+		padding-bottom: 3rem;
+	}
+	section.ofrecimiento-nutriplanner .item-icon .block-icon, section.ofrecimiento-nutriplanner .item-icon .block-text{
+		text-align: center;
+	}
+	section.ofrecimiento-nutriplanner .item-icon .block-text{
+		font-size: 15px;
+		line-height: 1.6;
+		font-family: 'aller_lt';
+	  margin-top: 8px;
+	  padding: 0 3.2rem;
+	}
+	section.ofrecimiento-nutriplanner .item-icon img{
+		width: 100px; 
+	}
+	section.ofrecimiento-nutriplanner .item-icon p{ 
+		margin: auto;
+	  width: 110px;
+	}
+
+/* SECCION AYUDA */ 
+	section.ayuda-nutriplanner{
+		background-color: #f5f5f5; 
+	}
+	section.ayuda-nutriplanner .block-header h2{
+		color: #21a2a8; 
+	}
+	section.ayuda-nutriplanner .item-icon img{ 
+		width: 86px; 
+	}
+	section.ayuda-nutriplanner .item-icon p{ 
+		margin: auto;
+	    color: #6db983;
+	}
+	section.ayuda-nutriplanner .item-icon .block-text{
+		font-size: 14px; 
+		font-family: 'aller_lt';
+	}
+
+/* SECCION REPORTES */
+	section.reportes-nutriplanner{
+		background-color: #1ea2a7; 
+		color: white;
+	}
+	section.reportes-nutriplanner .text-description{
+		font-family: 'aller_lt';
+	}
+
+/* SECCION CLIENTE CORPORATIVO */
+	section.cliente-corporativo-nutriplanner h2{
+		color: #21a2a8; 
+	}
+	section.cliente-corporativo-nutriplanner .block-text{
+		align-items: center;
+		margin: auto;
+		margin-right: 3.5rem;
+	}
+	section.cliente-corporativo-nutriplanner .block-text p{
+		font-size: 18px;
+		line-height: 1.6;
+		font-family: 'aller_lt';
+	}
+/* SECCION PLAN */
+	section.planes-nutriplanner{
+		background-color: #f5f5f5; 
+	}
+	section.planes-nutriplanner h2{
+		color: #21a2a8; 
+	}
+	section.planes-nutriplanner .block-body .plan{
+		text-align: center;
+	}
+	/* impar */
+	section.planes-nutriplanner .block-body .plan-impar .plan-price{
+		font-size: 14px;
+    padding: 1rem;
+	}
+	    
+	section.planes-nutriplanner .block-body .plan-impar .plan-price, 
+	section.planes-nutriplanner .block-body .plan-impar .plan-action, 
+	section.planes-nutriplanner .block-body .plan-impar .plan-title {
+		color: white;
+		background-color: #1ea2a7;
+	}
+	section.planes-nutriplanner .block-body .plan-impar .plan-description {
+		color: white;
+		background-color: #11868d;
+		font-size: 13px;
+	}
+	section.planes-nutriplanner .block-body .plan-impar .plan-detail { 
+		color: black; 
+		background-color: white; 
+		font-family: 'Aller_lt';
+	}
+	/* par */
+	section.planes-nutriplanner .block-body .plan-par .plan-price{
+		font-size: 14px;
+    	padding: 1rem;
+	}
+	section.planes-nutriplanner .block-body .plan-par .plan-price, 
+	section.planes-nutriplanner .block-body .plan-par .plan-action, 
+	section.planes-nutriplanner .block-body .plan-par .plan-title {
+		color: white;
+		background-color: #6bb884;
+	}
+	section.planes-nutriplanner .block-body .plan-par .plan-description {
+		color: white;
+		background-color: #5ea376;
+		font-size: 13px;
+	}
+	section.planes-nutriplanner .block-body .plan-par .plan-detail { 
+		color: black; 
+		background-color: white; 
+		font-family: 'Aller_lt';
+	}
+/* SECCION CONTACTO */ 
+	section.contacto-nutriplanner{
+		background-color: gray;
+	    height: 660px;
+	    background-size: cover;
+	    background-image: url("../../assets/images/footer.jpg");
+	}
+
+/* RESPONSIVE DESIGN */ 
+@media (max-width: 992px) { 
+		.slider-home .carousel-item .carousel-caption h2{
+			font-size: 1.8rem;
+		}
+		.slider-home .carousel-item .carousel-caption p{
+			    font-size: 16px;
+		}
+		section.concepto-nutriplanner .block-image{
+			text-align: center;
+		}
+		section.concepto-nutriplanner .block-text{
+			margin-left: 0;
+			text-align: center;
+	    margin-top: 1.2rem;
+		} 
+		section.ofrecimiento-nutriplanner .item-icon .block-text{
+			padding: 0;
+		}
+		section.cliente-corporativo-nutriplanner .block-text{
+			text-align: center;
+			margin-right: 0;
+			margin-bottom: 1.2rem;
+		}
+		section.cliente-corporativo-nutriplanner .block-text .text-content{
+			margin: auto;
+		}
+}
+@media (max-width: 768px) {
+	header .header-bar .brand-image{
+		width: 100%;
+	}
+	header .header-bar .brand-image .navbar-toggler{
+		float: right;
+	}
+	header .brand-menu li a.nav-link{
+		text-transform: uppercase;
+		text-align: center;
+    border-bottom: 1px solid #aedebc;
+	}
+	header .brand-menu li.active a.nav-link{
+		border-bottom: 1px solid #aedebc;
+	}
+	.slider-home .carousel-item .carousel-caption h2{
+		font-size: 1.5rem;
+	}
+	.slider-home .carousel-item .carousel-caption.hidden-movil p{ 
+		display: none; 
+	}
+	.slider-home .carousel-item .carousel-caption.show-movil{
+		left: 0;
+	  bottom: 2%;
+	  display: block; 
+	}
+	.slider-home .carousel-item .carousel-caption.show-movil p{
+		font-size: 16px;
+		padding: 0 6%;
+		display: block; 
+	}
+	.slider-home .carousel-item .carousel-caption{ 
+	    bottom: 74%;
+	}
+	section.ofrecimiento-nutriplanner h2{
+		padding-bottom: 0; 
+	}
+	section.ofrecimiento-nutriplanner .item-icon .block-text{
+		width: 300px;
+    margin: auto;
+    padding-bottom: 2rem;
+	}
+	
+}
+/* ANIMACION */ 
+.animation-element{
+	opacity: 0.1;/**/
+	/*display: none; */
+}/**/
