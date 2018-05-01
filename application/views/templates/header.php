@@ -38,14 +38,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="assets/libs/html5-reset/css/style.css" /> 
 
 	<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/libs/bootstrap-4.1.0/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="assets/libs/bootstrap-4.1.0/css/bootstrap.min.css" />
+  <!-- FontAwesome -->
+	<link rel="stylesheet" href="assets/libs/font-awesome/css/fontawesome-all.min.css" />
+  <!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="assets/libs/jquery.magnific/magnific-popup.css" />
   <!-- animate css --> 
   <link rel="stylesheet" href="assets/css/animate.css" /> 
 	<!-- Custom CSS --> 
 	<link rel="stylesheet" href="assets/css/custom.css" /> 
 
 	<script src="assets/libs/prefixfree.min.js"></script> 
-	<script src="assets/libs/modernizr-custom.js"></script>
+	<script src="assets/libs/modernizr-custom.js"></script> 
+
+
 
 	<!-- Twitter: see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary for details -->
 	<meta name="twitter:card" content="">

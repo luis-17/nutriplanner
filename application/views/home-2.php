@@ -4,30 +4,58 @@
         <section id="inicio" class="slider-home">
           <div id="carouselHomeNP" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <!-- <li data-target="#carouselHomeNP" data-slide-to="0"></li> -->
-              <!-- <li data-target="#carouselHomeNP" data-slide-to="1" class="active"></li> -->
-              <!-- <li data-target="#carouselHomeNP" data-slide-to="2"></li> -->
+              <li data-target="#carouselHomeNP" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselHomeNP" data-slide-to="1"></li> 
+              <li data-target="#carouselHomeNP" data-slide-to="2"></li><!-- -->
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="image-background uno"></div> 
-                <div class="carousel-caption uno hidden-movil" style="display:none;">
-                  <h2 class="mv-title mx-3"> Software Especializado NutriPlanner: </h2>
+                <div class="image-background dos"></div> 
+                <div class="carousel-caption dos hidden-movil" style="display:none;">
+                  <h2 class="mv-title"> ¡Conéctate a NutriPlanner desde cualquier lugar! </h2>
+                  <p class="mv-lema-1"> NutriPlanner funciona en línea, así podrás acceder a toda la información de tus pacientes desde cualquier lugar. </p>
+                  <button type="button" class="btn btn-sm btn-interes"> ME INTERESA </button> 
+                </div>
+                <div class="carousel-caption dos show-movil"> 
                   <p class="mv-lema-1 mx-4 my-0"> Genera valor agregado al servicio que brinda a sus pacientes mediante reportes personalizados </p>
                 </div>
-                <div class="carousel-caption uno show-movil"> 
-                  <p class="mv-lema-1 mx-4 my-0"> Genera valor agregado al servicio que brinda a sus pacientes mediante reportes personalizados </p>
+              </div> <!--  -->
+              <div class="carousel-item">
+                <div class="image-background tres"></div> 
+                <div class="carousel-caption tres hidden-movil" style="display:none;">
+                  <div class="d-inline-block mv-title">
+                    <h2 class="my-3 mb-4"> Reporte personalizados para tus pacientes: </h2>
+                    <p class="mv-lema-1 my-0"> Generamos reportes con tu imagen </p>
+                    <button type="button" class="btn btn-sm btn-interes mt-3"> VER REPORTES </button>
+                  </div>
+                  <div class="d-inline-block mv-imagen-reporte">
+                    <img alt="Reportes Personalizados" src="<?php echo base_url(); ?>assets/images/slider-3/slider-3_2.png" />
+                  </div>
                 </div>
-              </div> 
+                <div class="carousel-caption tres show-movil"> 
+                  <p class="mv-lema-1 mx-4 my-0"> Generamos reportes con tu imagen </p>
+                </div>
+              </div> <!--  -->
+              <div class="carousel-item">
+                <div class="image-background cuatro"></div> 
+                <div class="carousel-caption cuatro hidden-movil" style="display:none;">
+                  <h2 class="mv-title"> NutriPlanner mantiene tus datos seguros </h2>
+                  <p class="mv-lema-1 "> Tu información es privada, accede a los registros de tus pacientes con la seguridad que necesitas. </p>
+                  <button type="button" class="btn btn-sm btn-interes"> ME INTERESA </button> 
+                </div>
+                <div class="carousel-caption cuatro show-movil"> 
+                  <p class="mv-lema-1 mx-4 my-0"> Tu información es privada, accede a los registros de tus pacientes con la seguridad que necesitas. </p>
+                </div>
+              </div> <!--  --> 
             </div>
-            <!-- <a class="carousel-control-prev" href="#carouselHomeNP" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselHomeNP" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+              <span class="sr-only">Anterior</span>
             </a>
             <a class="carousel-control-next" href="#carouselHomeNP" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a> -->
+              <span class="sr-only">Siguiente</span>
+            </a> 
           </div>
         </section>
       </div>

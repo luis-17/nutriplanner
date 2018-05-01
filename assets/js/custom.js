@@ -44,11 +44,24 @@ $(function(){
         var heightWindow = $(window).height(); 
         $('.image-background').height(heightWindow+'px');
     },100); 
+
     // animate letters 1 
     setTimeout(function(argument) { 
-        $('#carouselHomeNP .carousel-caption.hidden-movil').show();
-        $('#carouselHomeNP h2.mv-title').animateCss('slideInLeft');
-        $('#carouselHomeNP p.mv-lema-1').animateCss('slideInRight');
+        $('#carouselHomeNP .carousel-caption.uno.hidden-movil').show();
+        $('#carouselHomeNP .carousel-caption.uno h2.mv-title').animateCss('slideInLeft');
+        $('#carouselHomeNP .carousel-caption.uno p.mv-lema-1').animateCss('slideInRight');
+
+        $('#carouselHomeNP .carousel-caption.dos.hidden-movil').show();
+        $('#carouselHomeNP .carousel-caption.dos h2.mv-title').animateCss('slideInLeft');
+        $('#carouselHomeNP .carousel-caption.dos p.mv-lema-1').animateCss('slideInRight');
+
+        $('#carouselHomeNP .carousel-caption.tres.hidden-movil').show();
+        $('#carouselHomeNP .carousel-caption.tres .mv-title').animateCss('slideInLeft');
+        $('#carouselHomeNP .carousel-caption.tres .mv-imagen-reporte').animateCss('slideInRight');
+
+        $('#carouselHomeNP .carousel-caption.cuatro.hidden-movil').show();
+        $('#carouselHomeNP .carousel-caption.cuatro h2.mv-title').animateCss('slideInLeft');
+        $('#carouselHomeNP .carousel-caption.cuatro p.mv-lema-1').animateCss('slideInRight');
     },1000); 
 
 
@@ -78,4 +91,49 @@ $(function(){
       $window.on('scroll resize', check_if_in_view);
       $window.trigger('scroll');
     },1000); 
+
+
+  /*------------------------- 
+    Magnific Popup Image 
+  /*-------------------------*/ 
+    // reportes
+    $('.img-popup-reporte').magnificPopup({ 
+        type: 'image',
+        gallery:{
+            enabled:true
+        },
+        zoom: {
+          enabled: true,
+          duration: 300 
+        }
+    }); 
+  /*------------------------- 
+    Magnific Popup Image 
+  /*-------------------------*/ 
+    // concepto 
+    $('.img-popup-concepto').magnificPopup({ 
+        type: 'image',
+        gallery:{
+            enabled:true
+        },
+        zoom: {
+          enabled: true,
+          duration: 300 
+        }
+    }); 
+    // corporativo 
+    $('.img-popup-corporativo').magnificPopup({ 
+        type: 'image',
+        gallery:{
+            enabled:true
+        },
+        zoom: {
+          enabled: true,
+          duration: 300 
+        }
+    }); 
+  /*------------------------------------
+    Hoverdir Js
+  --------------------------------------*/
+    $('.galeria-default > div, .galeria-default > a').each( function() { $(this).hoverdir(); } );
 });
